@@ -13,7 +13,7 @@ interface GuideFinderProps {
   onGuideBooked: (guide: Guide) => void;
 }
 
-const GuideFinder: React.FC<GuideFinderProps> = ({ onClose, initialDistrict, currentUser, onOpenAuth, onGuideBooked }) => {
+const GuideFinder: React.FC<GuideFinderProps> = ({ initialDistrict, currentUser, onOpenAuth, onGuideBooked }) => {
   const [selectedDistrictName, setSelectedDistrictName] = useState<string | null>(initialDistrict || null);
   const [searchQuery, setSearchQuery] = useState('');
   const [allGuides, setAllGuides] = useState<Record<string, Guide[]>>({});

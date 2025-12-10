@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef } from 'react';
 import * as L from 'leaflet';
 import { districts } from '../data/districts';
@@ -184,7 +185,7 @@ const MapComponent: React.FC<MapComponentProps> = ({
         }
 
         // 3. Draw fallback straight line
-        const fallbackPolyline = L.polyline([[startLat, startLng], [endLat, endLng]], {
+        L.polyline([[startLat, startLng], [endLat, endLng]], {
            color: '#94a3b8',
            dashArray: '10, 10',
            weight: 3

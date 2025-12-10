@@ -9,7 +9,7 @@ interface UserProfileProps {
   onUpdate: () => void;
 }
 
-const UserProfile: React.FC<UserProfileProps> = ({ user, onClose, onUpdate }) => {
+const UserProfile: React.FC<UserProfileProps> = ({ user, onUpdate }) => {
   const [myBookings, setMyBookings] = useState<Booking[]>([]); // Bookings I made (Traveler)
   const [jobRequests, setJobRequests] = useState<Booking[]>([]); // Bookings sent to me (Guide)
   
