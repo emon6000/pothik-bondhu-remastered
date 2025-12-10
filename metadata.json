@@ -1,0 +1,5 @@
+{
+  "name": "BD District Smart Search",
+  "description": "A smart, fuzzy-search enabled directory for all 64 districts of Bangladesh.",
+  "requestFramePermissions": []
+}
