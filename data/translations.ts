@@ -10,7 +10,7 @@ export const translations = {
       busy: "Busy"
     },
     hero: {
-      version: "Version 3.3",
+      version: "Version 2",
       welcome: "Welcome to",
       subtitle: "Your intelligent travel partner.",
       features: "Now with Smart Guide Booking & Dual Language!",
@@ -46,7 +46,7 @@ export const translations = {
       busy: "ব্যস্ত"
     },
     hero: {
-      version: "ভার্সন ৩.৩",
+      version: "ভার্সন ২",
       welcome: "স্বাগতম জানাই",
       subtitle: "আপনার বুদ্ধিমান ভ্রমণ সঙ্গী।",
       features: "এখন স্মার্ট গাইড বুকিং এবং বাংলা ভাষা সহ!",
